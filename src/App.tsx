@@ -1,7 +1,12 @@
+import { Header } from "./components/landing/Header";
+
 export function App() {
   return (
     <>
-      <Hea
+      <Header />
+      <main>
+        
+      </main>
     </>
   );
 }
