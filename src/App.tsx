@@ -1,7 +1,9 @@
 export function App() {
   return (
     <>
-      <h1 className="text-4xl bg-green-500">Destrava</h1>
+      <div className="bg-background text-brand font-sans app-container ">
+        <h1>Destrava</h1>
+      </div>
     </>
   );
 }
