@@ -1,5 +1,6 @@
 import { Header } from "./components/landing/Header";
 import { Hero } from "./components/landing/Hero";
+import { HowItWorks } from "./components/landing/HowItWorks";
 
 export function App() {
   return (
@@ -7,6 +8,7 @@ export function App() {
       <Header />
       <main>
         <Hero />
+        <HowItWorks />
       </main>
     </>
   );
