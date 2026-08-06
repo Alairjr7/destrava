@@ -1,4 +1,4 @@
-import type { HowItWorksCardProps } from "../HowItWorks/types";
+import type { HowItWorksCardProps } from "../../types";
 
 export function CardHowItWorks({
   icon,

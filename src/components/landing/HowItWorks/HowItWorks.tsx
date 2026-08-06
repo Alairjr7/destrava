@@ -4,10 +4,10 @@ import {
   ListChecks,
   MessageSquareText,
 } from "lucide-react";
-import type { HowItWorksCardProps } from "./types";
-import { CardHowItWorks } from "../CardHowItWorks";
-import { SectionHeader } from "../SectionHeader";
 import { ButtonLink } from "../ButtonLink";
+import { SectionHeader } from "../SectionHeader";
+import { CardHowItWorks } from "./components/CardHowItWorks";
+import type { HowItWorksCardProps } from "./types";
 
 const howItWorksCards: HowItWorksCardProps[] = [
   {

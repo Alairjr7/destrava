@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Badge } from "../Badge";
-import { HeroPreviewCard } from "../HeroPreviewCard";
+import { HeroPreviewCard } from "./components/HeroPreviewCard";
 import { ButtonLink } from "../ButtonLink";
 
 export function Hero() {

@@ -6,6 +6,8 @@ type SectionHeaderProps = {
   description: string;
   badge: string;
   heading: "h2" | "h3" | "h4" | "h5" | "h6";
+  children?: React.ReactNode;
+  className?: string;
 };
 
 export function SectionHeader({
@@ -14,10 +16,12 @@ export function SectionHeader({
   description,
   badge,
   heading,
+  children,
+  className = "mx-auto max-w-2xl text-center",
 }: SectionHeaderProps) {
   const Heading = heading;
   return (
-    <div className="mx-auto max-w-2xl text-center">
+    <div className={className}>
       <Badge text={badge} />
       <Heading
         id="how-it-works-title"
@@ -29,6 +33,7 @@ export function SectionHeader({
       <p className="mt-5 text-base leading-7 text-muted-foreground sm:text-lg">
         {description}
       </p>
+      {children}
     </div>
   );
 }
