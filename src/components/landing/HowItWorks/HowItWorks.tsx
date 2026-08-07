@@ -55,8 +55,8 @@ export function HowItWorks() {
             aria-hidden="true"
             className="absolute top-12 right-[16.66%] left-[16.66%] hidden h-px bg-border-strong md:block"
           />
-          {howItWorksCards.map((card) => (
-            <CardHowItWorks {...card} />
+          {howItWorksCards.map((card, index) => (
+            <CardHowItWorks {...card} key={index} />
           ))}
         </div>
 

@@ -44,25 +44,13 @@ export function Benefits() {
             heading="h2"
             title="Menos sobrecarga. Mais clareza para"
             highlightedTitle="continuar avançando."
-            description=" O Destrava não tenta organizar toda a sua vida. Ele ajuda você a
-              entender o que pode ser feito agora, sem carregar o peso da tarefa
-              inteira."
+            description=" O Destrava não tenta organizar toda a sua vida. Ele ajuda você a entender o que pode ser feito agora, sem carregar o peso da tarefa inteira"
             className="max-w-xl"
-          >
-            <div className="mt-8 rounded-lg border border-brand-muted bg-brand-soft p-5">
-              <p className="text-sm font-semibold text-brand">
-                A filosofia do Destrava
-              </p>
-
-              <p className="mt-2 text-lg font-semibold leading-7 text-foreground">
-                A menor ação sempre vence a maior intenção.
-              </p>
-            </div>
-          </SectionHeader>
+          />
 
           <div className="grid gap-5 sm:grid-cols-2">
-            {benefitsCards.map((card) => (
-              <CardBenefits {...card} />
+            {benefitsCards.map((card, index) => (
+              <CardBenefits {...card} key={index} />
             ))}
           </div>
         </div>

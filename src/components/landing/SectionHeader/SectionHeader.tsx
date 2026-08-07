@@ -30,7 +30,7 @@ export function SectionHeader({
         {title} <span className="text-brand">{highlightedTitle}</span>
       </Heading>
 
-      <p className="mt-5 text-base leading-7 text-muted-foreground sm:text-lg">
+      <p className="mt-5 text-base leading-7 text-muted-foreground sm:text-lg whitespace-pre-line">
         {description}
       </p>
       {children}

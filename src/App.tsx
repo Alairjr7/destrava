@@ -1,3 +1,4 @@
+import { About } from "./components/landing/About";
 import { Benefits } from "./components/landing/Benefits";
 import { Header } from "./components/landing/Header";
 import { Hero } from "./components/landing/Hero";
@@ -11,6 +12,7 @@ export function App() {
         <Hero />
         <HowItWorks />
         <Benefits />
+        <About />
       </main>
     </>
   );
